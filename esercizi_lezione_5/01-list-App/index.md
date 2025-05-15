@@ -10,4 +10,4 @@ Creare un'app che consenta agli utenti di gestire un elenco di elementi. L'elenc
 * [ ] Gli utenti dovrebbero essere in grado di aggiungere un nuovo elemento
    * [ ] I nuovi elementi convalidati dovrebbero apparire nell'elenco
 * [ ] Gli utenti dovrebbero essere in grado di rimuovere un elemento
-* [ ] Gli utenti dovrebbero essere in grado di modificare un elemento (ad esempio: contrassegnare un elemento come fatto o visto)
+* [ ] Gli utenti dovrebbero essere in grado di modificare un elemento (ad esempio: contrassegnare un elemento come fatto o visto).

@@ -357,11 +357,7 @@ function App() {
   const [selectedCity, setSelectedCity] = useState(null);
   const [favorite, setFavorite] = useState([]);
   const [addNewCity, setAddNewCity] = useState(false);
-  const [deleteCity, setDeleteCity] = useState(null);
 
-   function addNewCityHandler(newCity) {
-    setCities((prevCities) => [...prevCities, newCity]);
-  }
 
   function onChangeFavorite({ city }) {
     setFavorite((prevFavorite) =>
@@ -372,7 +368,6 @@ function App() {
   }
 
   function handleDeleteCity({city}) {
-    setDeleteCity(city);
     setCities((prevCities) => prevCities.filter((el) => el.id !== city.id));
   }
   return (

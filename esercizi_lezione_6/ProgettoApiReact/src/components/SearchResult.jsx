@@ -37,6 +37,7 @@ function SearchResult({ query }) {
                 </div>
             </>
             : null
+            // <h1 className='m-14 font-normal text-4xl text-center italic'>Nessun personaggio trovato</h1>
     )
 }
 
